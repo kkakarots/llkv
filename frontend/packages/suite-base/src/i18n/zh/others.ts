@@ -1,0 +1,32 @@
+// SPDX-FileCopyrightText: Copyright (C) 2023-2025 Bayerische Motoren Werke Aktiengesellschaft (BMW AG)<lichtblick@bmwgroup.com>
+// SPDX-License-Identifier: MPL-2.0
+
+export const others = {
+  Alerts: "警报",
+  Topics: "主题",
+  Panel: "面板",
+  Layouts: "布局",
+  CreateNewLayout: "创建新布局",
+  ImportFromFile: "从文件导入...",
+  SelectClassicLayout: "选择经典布局",
+  SelectClassicLayoutDescription: "选择一个预定义的经典布局来快速开始工作",
+  ClassicLayouts: "经典布局",
+  Rename: "重命名",
+  MakeAPersonalCopy: "制作个人副本",
+  Duplicate: "复制",
+  ShareWithTeam: "与团队共享…",
+  Export: "导出…",
+  Delete: "删除",
+  SaveChanges: "保存更改",
+  Revert: "还原",
+  Offline: "离线",
+  DeleteSelectedLayouts: "删除选中的布局？",
+  OrganizationMembersWarning: "组织成员将无法再访问此布局。",
+  ThisActionCannotBeUndone: "此操作无法撤销。",
+  Cancel: "取消",
+  OK: "确定",
+  RevertLayouts: "还原布局",
+  RevertLayout: "还原“{{layoutName}}”?",
+  ChangesWillBeDiscarded: "您的更改将被永久丢弃。此操作无法撤销。",
+  DiscardChanges: "丢弃更改",
+};

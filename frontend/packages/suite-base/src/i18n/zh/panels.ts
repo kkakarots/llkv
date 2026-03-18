@@ -1,0 +1,56 @@
+// SPDX-FileCopyrightText: Copyright (C) 2023-2025 Bayerische Motoren Werke Aktiengesellschaft (BMW AG)<lichtblick@bmwgroup.com>
+// SPDX-License-Identifier: MPL-2.0
+
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/
+
+export const panels = {
+  "3D": "3D",
+  "3DPanelDescription": "在3D场景中显示标记、摄像头图像、网格、URDF等。",
+  callService: "调用服务",
+  callServiceDescription: "调用服务并查看服务调用结果",
+  dataSourceInfo: "数据源信息",
+  dataSourceInfoDescription: "查看当前数据源的主题和时间戳等详细信息。",
+  gauge: "仪表盘",
+  gaugeDescription: "基于连续数值显示彩色仪表盘。",
+  image: "图像",
+  imageDescription: "显示带注释的图像。",
+  indicator: "指示器",
+  indicatorDescription: "基于阈值显示彩色和/或文本指示器。",
+  log: "日志",
+  logDescription: "按节点和严重级别显示日志。",
+  map: "地图",
+  mapDescription: "在地图上显示点。",
+  parameters: "参数",
+  parametersDescription: "读取和设置数据源的参数。",
+  plot: "折线图",
+  plotDescription: "随时间或其他数值绘制数值曲线。",
+  pieChart: "饼图",
+  pieChartDescription: "基于连续数值显示饼图。",
+  publish: "发布",
+  publishDescription: "向数据源发布消息（仅限实时连接）。",
+  rawMessages: "原始消息",
+  rawMessagesDescription: "检查主题消息。",
+  ROSDiagnosticsDetail: "诊断 – 详情（ROS）",
+  ROSDiagnosticsDetailDescription: "显示特定 hardware_id 的 ROS DiagnosticArray 消息。",
+  ROSDiagnosticSummary: "诊断 – 汇总（ROS）",
+  ROSDiagnosticSummaryDescription: "显示所有 ROS DiagnosticArray 消息的汇总。",
+  stateTransitions: "状态转换",
+  stateTransitionsDescription: "跟踪数值随时间的变化。",
+  studioPlaybackPerformance: "Studio - 播放性能",
+  studioPlaybackPerformanceDescription: "显示回放和数据流性能统计信息。",
+  tab: "标签页",
+  tabDescription: "在标签页界面中组合面板。",
+  table: "表格",
+  tableDescription: "以表格形式显示主题消息。",
+  teleop: "远程操作",
+  teleopDescription: "通过实时连接远程操作机器人。",
+  topicGraph: "主题图",
+  topicGraphDescription: "显示活动节点、主题和服务的图形。",
+  userScripts: "用户脚本",
+  userScriptsDescription:
+    "使用 TypeScript 编写自定义数据转换。之前称为节点操场（Node Playground）。",
+  variableSlider: "变量滑块",
+  variableSliderDescription: "更新布局的数值变量。",
+};

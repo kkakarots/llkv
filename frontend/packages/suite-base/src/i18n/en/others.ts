@@ -1,0 +1,32 @@
+// SPDX-FileCopyrightText: Copyright (C) 2023-2025 Bayerische Motoren Werke Aktiengesellschaft (BMW AG)<lichtblick@bmwgroup.com>
+// SPDX-License-Identifier: MPL-2.0
+
+export const others = {
+  Alerts: "Alerts",
+  Topics: "Topics",
+  Panel: "Panel",
+  Layouts: "Layouts",
+  CreateNewLayout: "Create new layout",
+  ImportFromFile: "Import from file...",
+  SelectClassicLayout: "Select Classic Layout",
+  SelectClassicLayoutDescription: "Choose a predefined classic layout to get started quickly",
+  ClassicLayouts: "Classic Layouts",
+  Rename: "Rename",
+  MakeAPersonalCopy: "Make a personal copy",
+  Duplicate: "Duplicate",
+  ShareWithTeam: "Share with team…",
+  Export: "Export…",
+  Delete: "Delete",
+  SaveChanges: "Save changes",
+  Revert: "Revert",
+  Offline: "Offline",
+  DeleteSelectedLayouts: "Delete selected layouts?",
+  OrganizationMembersWarning: "Organization members will no longer be able to access this layout.",
+  ThisActionCannotBeUndone: "This action cannot be undone.",
+  Cancel: "Cancel",
+  OK: "OK",
+  RevertLayouts: "Revert layouts",
+  RevertLayout: "Revert \"{layoutName}\"?",
+  ChangesWillBeDiscarded: "Your changes will be permantly discarded. This cannot be undone.",
+  DiscardChanges: "Discard changes",
+};
