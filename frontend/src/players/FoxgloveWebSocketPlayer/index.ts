@@ -322,6 +322,10 @@ export default class FoxgloveWebSocketPlayer implements Player {
     this.#client.on("message", ({ subscriptionId, data }) => {
        // 这里的 data 是 ArrayBuffer
        console.log(`📦 收到数据包! ID: ${subscriptionId}, 大小: ${data.byteLength} bytes`);
+       console.log(`📦 数据详情:`, data);
+       const chanInfo = this.#resolvedSubscriptionsById.get(subscriptionId);
+       const deserializedMessage = chanInfo?.parsedChannel.deserialize(data);
+       console.log(`📦 消息解码:`, deserializedMessage);
     });
   };
   // #open = (): void => {
